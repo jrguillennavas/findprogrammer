@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Inconsolata", monospace;
+}
+.root {
+  width: 100%;
+  height: 100vh;
+  //background-color: #0a0a0b;
+}
+.Light {
+  background-color: #e5e1ee;
+  .Form__input-search,
+  .Content {
+    background-color: #fff;
+  }
+  .Dashboard {
+    background-color: #e5e1ee;
+  }
+}
+.Dark {
+  background-color: #141413;
+  color: #fff;
+  .Form__input-search,
+  .Content {
+    background-color: #1e212d;
+    color: #fff;
+  }
+  .Dashboard {
+    background-color: #141413;
+  }
+}
+@media only screen and (min-width: 765px) {
+  .root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

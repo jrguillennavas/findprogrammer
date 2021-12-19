@@ -1,0 +1,107 @@
+.Main {
+  padding: 0 2rem;
+  width: 100%;
+  height: inherit;
+  font-size: 1.2rem;
+  max-width: 60rem;
+  margin: auto;
+  height: auto;
+}
+
+.Header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Title {
+  font-size: 2.5rem;
+}
+.Div__theme {
+  display: flex;
+  width: 6rem;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.Form {
+  width: 100%;
+  height: 4rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.Form__input-search {
+  width: 100%;
+  height: inherit;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 7rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+  border: none;
+  outline-style: none;
+  box-shadow: 1px 5px 5px rgba($color: #000000, $alpha: 0.2);
+}
+.Form__icon-search,
+.Form__btn-search {
+  position: absolute;
+}
+.Form__icon-search {
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 2rem;
+  color: #2196f3;
+}
+.Form__btn-search {
+  top: 0.4rem;
+  right: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+}
+.Content {
+  width: 100%;
+  height: auto;
+  grid-column: 1fr;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  box-shadow: 1px 5px 5px rgba($color: #000000, $alpha: 0.2);
+}
+.Content__info {
+  font-size: 1.3rem;
+}
+.Loading {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 765px) {
+  .Content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .Content__div-info {
+    max-width: 86%;
+  }
+  .Content__details {
+    min-width: 86%;
+    display: flex;
+    .Content__details-items {
+      margin-right: 5rem;
+    }
+  }
+
+  .Content__dashboard {
+    max-width: 86%;
+  }
+}
