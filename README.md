@@ -9,3 +9,5 @@ It is a user search application and shows the most relevant information about th
 
 Link Demo:
 
+## Acknowledgements
+- [frontendmentor.io](https://www.frontendmentor.io/)
